@@ -5,11 +5,11 @@ internal class IsAltKtTest {
 
     @Test
     fun testWithAlt() {
-        assertEquals(isAlt("amazon"), true)
-        assertEquals(isAlt("banana"), true)
+        assertEquals(true, isAlt("amazon"))
+        assertEquals(true, isAlt("banana"))
     }
     @Test
     fun testWithNotAlt() {
-        assertEquals(isAlt("apple"), false)
+        assertEquals(false, isAlt("apple"))
     }
 }
